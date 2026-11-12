@@ -1,0 +1,11 @@
+{
+  "payload": {
+    "kind": "gro-update-v1",
+    "version": "3.0.1",
+    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.0.1/GRO_Studio_Universal_3.0.1.exe",
+    "sha256": "dcebf319b588214eb1b829ca140f3bd7114b640719fe62c5f422498e2134593d",
+    "size": 13770240,
+    "notes": "Обновление ГРО Studio и проверка лицензии без повторной активации."
+  },
+  "signature": "d7cef3e254964c2427b9776e5d737184c07c1a71d46aaca287762e742bda26a062c7bc21ed467c2b2e29f362c31aaaac1fd0602200427c177eb7b6593b222209"
+}
