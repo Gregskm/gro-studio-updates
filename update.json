@@ -1,11 +1,11 @@
 {
   "payload": {
     "kind": "gro-update-v1",
-    "version": "3.0.1",
-    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.0.1/GRO_Studio_Universal_3.0.1.exe",
-    "sha256": "dcebf319b588214eb1b829ca140f3bd7114b640719fe62c5f422498e2134593d",
-    "size": 13770240,
-    "notes": "Обновление ГРО Studio и проверка лицензии без повторной активации."
+    "version": "3.0.2",
+    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.0.2/GRO_Studio_Universal_3.0.2.exe",
+    "sha256": "d2756f39894517bab5f9fe31a0a4e4a73ff72a82c30be6c0cdf5b2a2387d07bf",
+    "size": 13777920,
+    "notes": "ГРО Studio 3.0.2: настройки проекта, направление отсчёта Hz, точность прибора и новый интерфейс без кнопки «Эксперимент». Сохранение лицензии при обновлении."
   },
-  "signature": "d7cef3e254964c2427b9776e5d737184c07c1a71d46aaca287762e742bda26a062c7bc21ed467c2b2e29f362c31aaaac1fd0602200427c177eb7b6593b222209"
+  "signature": "0076b5e173196e53fdbb191a2927c8c16ec7f753d491c227f58ece147623951d299b5bfd8857fee78fab8c38b59fb3aefc09e13477ab2dfa9de20200cda4da0e"
 }
