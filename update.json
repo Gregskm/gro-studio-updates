@@ -1,11 +1,11 @@
 {
   "payload": {
     "kind": "gro-update-v1",
-    "version": "3.0.2",
-    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.0.2/GRO_Studio_Universal_3.0.2.exe",
-    "sha256": "d2756f39894517bab5f9fe31a0a4e4a73ff72a82c30be6c0cdf5b2a2387d07bf",
-    "size": 13777920,
-    "notes": "ГРО Studio 3.0.2: настройки проекта, направление отсчёта Hz, точность прибора и новый интерфейс без кнопки «Эксперимент». Сохранение лицензии при обновлении."
+    "version": "3.0.3",
+    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.0.3/GRO_Studio_Universal_3.0.3.exe",
+    "sha256": "a0c75b2c90716227489294c6aa1dda5df0710b7f11746d1b71af57cd7f2127fe",
+    "size": 16349184,
+    "notes": "Исправлен импорт Leica GSI16 с маской 21.304/22.304 и Sokkia SDR33 с записями 07TP. Добавлены предупреждения о регистре имён пунктов и повторном импорте одной съёмки. Сохранены оригиналы и поддержка прежних форматов. Исправлены файловая выдача лицензий v2, ручная миграция v1 и блокировка менеджера. Активация сохраняется при обновлении на том же компьютере в прежнем профиле Windows. Перед обновлением сохраните проект."
   },
-  "signature": "0076b5e173196e53fdbb191a2927c8c16ec7f753d491c227f58ece147623951d299b5bfd8857fee78fab8c38b59fb3aefc09e13477ab2dfa9de20200cda4da0e"
+  "signature": "f16bb7483b93397c17bf0beef3adad07511ddf3616ada8d53eef9df0caf34250000c7b38c0a235a180254279ba7b631a18730e4d2b68986b54d4195983663f05"
 }
