@@ -1,11 +1,11 @@
 {
   "payload": {
     "kind": "gro-update-v1",
-    "version": "3.5.3",
-    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.5.3/GRO_Studio_Universal_3.5.3.exe",
-    "sha256": "6178b85deccf27844b277f3c9d09a8ce8522a1fa894cea26021a09da2a808a58",
-    "size": 28970496,
-    "notes": "Компактные переключатели с цветом значка по состоянию; измерения сверху, станции снизу; отключение станции прямо в списке; новый значок штатива. Отключение станции сохраняется в проекте и учитывается начиная с 3.5.3."
+    "version": "3.5.4",
+    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.5.4/GRO_Studio_Universal_3.5.4.exe",
+    "sha256": "5129f5d8da3bf6ae6c7879be2aae3a46446c92fd7e556f94dd23f26094b75602",
+    "size": 28991488,
+    "notes": "Добавлены 177 обзорных определений МСК, в том числе МСК-23 зоны 1 и 2. Улучшены поиск по названию/номеру зоны и объяснения фильтра района. Пункты пересчитываются через WGS84 только для отображения; исходные координаты и расчёт сохраняются. Каталог местных СК неполный, точность местных переходов требует отдельной проверки."
   },
-  "signature": "560c6a9410ca355af5d93fc26b82fb42d4fe0bcfbd29d09f1ca212138f7a10b9d203ca117a7375a8a0a00c8b2906e0fd0a76c00eaddf6f538c7469edefee9b00"
+  "signature": "ce45bb8c81d3b159fb2abb792dae274f4ff0ee215ef099a408556cda67c9f2984822f860300d8e5b4ee60ad7d834fb7c3c0cee7745eb3041d17493f53586d50f"
 }
