@@ -1,11 +1,11 @@
 {
   "payload": {
     "kind": "gro-update-v1",
-    "version": "3.6.15",
-    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.6.15/GRO_Studio_Universal_3.6.15.exe",
-    "sha256": "5a194c3ade7bc5627bab0650b48a846446a6b3f2c91d7af2a29672525144cb53",
-    "size": 34823168,
-    "notes": "Версия 3.6.15 принимает лицензии v2, подписанные отдельным ключом выдачи. Ранее установленные лицензии v2 продолжают действовать. Активация доступна по коду GROLIC2 и файлу .grolic. Для обновлений программа проверяет подпись владельца. Для связи с проектом откройте @gro_studio_license_bot в Telegram."
+    "version": "3.6.16",
+    "url": "https://github.com/Gregskm/gro-studio-updates/releases/download/v3.6.16/GRO_Studio_Universal_3.6.16.exe",
+    "sha256": "6f2a1183078531cbdb49e2ff2497e6cd8aacb49c51f97a55403c53f34ace8e95",
+    "size": 36357120,
+    "notes": "Версия 3.6.16. Светлая и тёмная графитовые темы, локальные шрифты и группировка чисел. Обновлены измерительный журнал, ведомости, план и окна активации. В строке журнала редактируется только наклонное расстояние S. Записанное горизонтальное проложение D сохраняется."
   },
-  "signature": "b5d1f64a2e0eba4ccb9fb8f33311e1fc74c3bb95cebed2bddb03da51ad5f42b008ca143ae1c82f2b74cb0481e2c429a7ccf040e6ce4658902267f5b97653940a"
+  "signature": "44a1a48bb2078fe3ecd7bf3c82ff8c7c6df83f29030133843f0b3d72915370ecc2b8b920922c4bb78df90e7a0ec826c88330adb21f5f1cc8bb4058cc753cce03"
 }
