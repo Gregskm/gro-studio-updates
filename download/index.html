@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>Скачать GRO Studio для Windows</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    body { margin: 15vh auto; padding: 0 1.5rem; max-width: 36rem; line-height: 1.5; }
+    h1 { font-size: 1.6rem; line-height: 1.25; }
+    a { color: #175ba0; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+    @media (prefers-color-scheme: dark) { a { color: #94caff; } }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>GRO Studio для Windows</h1>
+    <p id="status" role="status">Открываем загрузку актуального клиента.</p>
+    <p><a id="download" href="https://github.com/Gregskm/gro-studio-updates/releases/latest">Открыть последний выпуск на GitHub</a></p>
+    <noscript>На странице выпуска выберите файл GRO_Studio_Universal для Windows с расширением .exe.</noscript>
+  </main>
+  <script>
+    (async () => {
+      const link = document.getElementById("download");
+      const status = document.getElementById("status");
+      try {
+        const response = await fetch("../update.json", {cache: "no-store", redirect: "error", credentials: "omit"});
+        if (!response.ok) throw new Error();
+        const {payload} = await response.json();
+        if (payload?.kind !== "gro-update-v1" || typeof payload.version !== "string" ||
+            !/^\d{1,6}\.\d{1,6}\.\d{1,6}$/.test(payload.version)) throw new Error();
+        const version = payload.version;
+        const file = `https://github.com/Gregskm/gro-studio-updates/releases/download/v${version}/GRO_Studio_Universal_${version}.exe`;
+        if (payload.url !== file) throw new Error();
+        link.href = file;
+        link.textContent = `Скачать GRO Studio ${version} для Windows`;
+        status.textContent = "Если загрузка не началась автоматически, нажмите на ссылку.";
+        location.replace(file);
+      } catch {
+        status.textContent = "Откройте последний выпуск и выберите клиент для Windows в списке файлов.";
+      }
+    })();
+  </script>
+</body>
+</html>
